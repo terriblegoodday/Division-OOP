@@ -7,27 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		770DBD4F23D19D4E00C16184 /* test1.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 770DBD4A23D19CA200C16184 /* test1.txt */; };
+		770DBD5023D19D4E00C16184 /* test2.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 770DBD4B23D19CAA00C16184 /* test2.txt */; };
+		770DBD5123D19D4E00C16184 /* test3.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 770DBD4C23D19CB400C16184 /* test3.txt */; };
+		770DBD5223D19D4E00C16184 /* test4.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 770DBD4D23D19CC000C16184 /* test4.txt */; };
+		770DBD5323D19D4E00C16184 /* test5.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 770DBD4E23D19CC800C16184 /* test5.txt */; };
+		770DBD5B23D19D6C00C16184 /* DivisionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 770DBD5A23D19D6C00C16184 /* DivisionTests.m */; };
+		770DBD6223D1A2A500C16184 /* divlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77A7A24D23ADABBA00DB9912 /* divlib.cpp */; };
+		770DBD6423D1AA7000C16184 /* NSExceptionWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 770DBD6323D1AA7000C16184 /* NSExceptionWrapper.m */; };
 		77A7A24723ADAB9900DB9912 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77A7A24623ADAB9900DB9912 /* main.cpp */; };
+		77A7A24F23ADABBA00DB9912 /* divlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77A7A24D23ADABBA00DB9912 /* divlib.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		77A7A24123ADAB9900DB9912 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				770DBD4F23D19D4E00C16184 /* test1.txt in CopyFiles */,
+				770DBD5023D19D4E00C16184 /* test2.txt in CopyFiles */,
+				770DBD5123D19D4E00C16184 /* test3.txt in CopyFiles */,
+				770DBD5223D19D4E00C16184 /* test4.txt in CopyFiles */,
+				770DBD5323D19D4E00C16184 /* test5.txt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		770DBD4A23D19CA200C16184 /* test1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test1.txt; sourceTree = "<group>"; };
+		770DBD4B23D19CAA00C16184 /* test2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test2.txt; sourceTree = "<group>"; };
+		770DBD4C23D19CB400C16184 /* test3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test3.txt; sourceTree = "<group>"; };
+		770DBD4D23D19CC000C16184 /* test4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test4.txt; sourceTree = "<group>"; };
+		770DBD4E23D19CC800C16184 /* test5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test5.txt; sourceTree = "<group>"; };
+		770DBD5823D19D6C00C16184 /* DivisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DivisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		770DBD5A23D19D6C00C16184 /* DivisionTests.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = DivisionTests.m; sourceTree = "<group>"; };
+		770DBD5C23D19D6C00C16184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		770DBD6323D1AA7000C16184 /* NSExceptionWrapper.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = NSExceptionWrapper.m; sourceTree = "<group>"; };
 		77A7A24323ADAB9900DB9912 /* Division */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Division; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A7A24623ADAB9900DB9912 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		77A7A24D23ADABBA00DB9912 /* divlib.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = divlib.cpp; sourceTree = "<group>"; };
+		77A7A24E23ADABBA00DB9912 /* divlib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = divlib.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		770DBD5523D19D6C00C16184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77A7A24023ADAB9900DB9912 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +70,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		770DBD4923D19C8400C16184 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				770DBD4A23D19CA200C16184 /* test1.txt */,
+				770DBD4B23D19CAA00C16184 /* test2.txt */,
+				770DBD4C23D19CB400C16184 /* test3.txt */,
+				770DBD4D23D19CC000C16184 /* test4.txt */,
+				770DBD4E23D19CC800C16184 /* test5.txt */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		770DBD5923D19D6C00C16184 /* DivisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				770DBD6323D1AA7000C16184 /* NSExceptionWrapper.m */,
+				770DBD5A23D19D6C00C16184 /* DivisionTests.m */,
+				770DBD5C23D19D6C00C16184 /* Info.plist */,
+			);
+			path = DivisionTests;
+			sourceTree = "<group>";
+		};
 		77A7A23A23ADAB9900DB9912 = {
 			isa = PBXGroup;
 			children = (
 				77A7A24523ADAB9900DB9912 /* Division */,
+				770DBD5923D19D6C00C16184 /* DivisionTests */,
 				77A7A24423ADAB9900DB9912 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				77A7A24323ADAB9900DB9912 /* Division */,
+				770DBD5823D19D6C00C16184 /* DivisionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,14 +113,50 @@
 		77A7A24523ADAB9900DB9912 /* Division */ = {
 			isa = PBXGroup;
 			children = (
+				770DBD4923D19C8400C16184 /* resources */,
+				77A7A26423AE15C700DB9912 /* src */,
+				77A7A26323AE15C300DB9912 /* include */,
 				77A7A24623ADAB9900DB9912 /* main.cpp */,
 			);
 			path = Division;
 			sourceTree = "<group>";
 		};
+		77A7A26323AE15C300DB9912 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				77A7A24E23ADABBA00DB9912 /* divlib.hpp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		77A7A26423AE15C700DB9912 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				77A7A24D23ADABBA00DB9912 /* divlib.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		770DBD5723D19D6C00C16184 /* DivisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 770DBD5D23D19D6C00C16184 /* Build configuration list for PBXNativeTarget "DivisionTests" */;
+			buildPhases = (
+				770DBD5423D19D6C00C16184 /* Sources */,
+				770DBD5523D19D6C00C16184 /* Frameworks */,
+				770DBD5623D19D6C00C16184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DivisionTests;
+			productName = DivisionTests;
+			productReference = 770DBD5823D19D6C00C16184 /* DivisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		77A7A24223ADAB9900DB9912 /* Division */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77A7A24A23ADAB9900DB9912 /* Build configuration list for PBXNativeTarget "Division" */;
@@ -91,6 +183,9 @@
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Eduard Dzhumagaliev";
 				TargetAttributes = {
+					770DBD5723D19D6C00C16184 = {
+						CreatedOnToolsVersion = 11.3;
+					};
 					77A7A24223ADAB9900DB9912 = {
 						CreatedOnToolsVersion = 10.3;
 					};
@@ -109,22 +204,78 @@
 			projectRoot = "";
 			targets = (
 				77A7A24223ADAB9900DB9912 /* Division */,
+				770DBD5723D19D6C00C16184 /* DivisionTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		770DBD5623D19D6C00C16184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		770DBD5423D19D6C00C16184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770DBD5B23D19D6C00C16184 /* DivisionTests.m in Sources */,
+				770DBD6423D1AA7000C16184 /* NSExceptionWrapper.m in Sources */,
+				770DBD6223D1A2A500C16184 /* divlib.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		77A7A23F23ADAB9900DB9912 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				77A7A24723ADAB9900DB9912 /* main.cpp in Sources */,
+				77A7A24F23ADABBA00DB9912 /* divlib.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		770DBD5E23D19D6C00C16184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				INFOPLIST_FILE = DivisionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = terriblegoodday.DivisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		770DBD5F23D19D6C00C16184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				INFOPLIST_FILE = DivisionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = terriblegoodday.DivisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		77A7A24823ADAB9900DB9912 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -239,6 +390,7 @@
 		77A7A24B23ADAB9900DB9912 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HA8PQ78LFS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -248,6 +400,7 @@
 		77A7A24C23ADAB9900DB9912 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HA8PQ78LFS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -257,6 +410,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		770DBD5D23D19D6C00C16184 /* Build configuration list for PBXNativeTarget "DivisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				770DBD5E23D19D6C00C16184 /* Debug */,
+				770DBD5F23D19D6C00C16184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		77A7A23E23ADAB9900DB9912 /* Build configuration list for PBXProject "Division" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
